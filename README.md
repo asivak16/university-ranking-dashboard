@@ -20,7 +20,28 @@ Ensure you have the following installed:
 - pip (Python package installer)
 
 ### Installation
-Clone the repository and navigate to the project directory:
-```bash
-git clone https://github.com/yourusername/university-rankings-dashboard.git
-cd university-rankings-dashboard
+1. **Clone the repository** and navigate to the project directory:
+
+    ```bash
+    git clone https://github.com/yourusername/university-rankings-dashboard.git
+    cd university-rankings-dashboard
+    ```
+
+2. **Set up a virtual environment (optional but recommended):**
+
+    ```bash
+    # Create a virtual environment
+    python -m venv venv
+
+    # Activate the virtual environment
+    # On Windows
+    .\venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
+    ```
+
+3. **Install the required dependencies** from the `requirements.txt` file:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
