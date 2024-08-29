@@ -1,0 +1,5 @@
+pandas==1.5.3            # For data manipulation and analysis
+numpy==1.24.2            # For handling numerical operations and NaN values
+plotly==5.13.1           # For creating interactive plots and visualizations
+dash==2.12.1             # For building interactive web applications and dashboards
+jupyter-dash==0.4.2      # For running Dash apps in Jupyter Notebook
